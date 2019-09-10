@@ -1,19 +1,19 @@
 public class circle 
 {	
-	private double R;
+	private double radius;
 public void setR(double x)
 {
-	R=x;
+	radius=x;
 }
 //perimetter
 public double perimetter()
 {
-	return (double)(2*R*Math.PI);
+	return (double)(2*radius*Math.PI);
 }
 //area
 public double area() 
 {
-	return (double)(R*R*Math.PI);
+	return (double)(Math.PI*Math.pow(radius,2));
 }
 public static void main(String args[]){
 	circle circ1 = new circle();
